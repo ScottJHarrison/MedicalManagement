@@ -1,0 +1,13 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+<div class="main-content">
+  <div class="main-title">
+      <h1>Medical Management System</h1>
+      <div class="nav-links">
+          <a href="{{ url_for('login') }}" class="nav-link">Login</a>
+          <a href="{{ url_for('register') }}" class="nav-link">Register</a>
+      </div>
+  </div>
+</div>
+{% endblock %}

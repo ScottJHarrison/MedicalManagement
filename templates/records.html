@@ -1,0 +1,58 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+  <h1>Patient Records</h1>
+  <h3>Populated with fake data</h3>
+
+ <div class="search-container">
+  <input type="text" id="search-input" placeholder="Search by patient ID, name, or other fields..." />
+  <button type="button" onclick="filterRecords()">Search</button>
+</div>
+
+
+  <h3>Search Results:</h3>
+  <div class="search-results-container" id="search-results-container">
+    <!-- The search results will be displayed here -->
+  </div>
+
+  <br>
+
+  <div class="records-container">
+    <table>
+      <thead>
+        <tr>
+          <th>Date</th>
+          <th>Patient ID</th>
+          <th>Gender</th>
+          <th>Age</th>
+          <th>SAT Score</th>
+          <th>First Initial</th>
+          <th>Last Name</th>
+          <th>Race</th>
+          <th>Admin Flag</th>
+          <th>Wait Time</th>
+          <th>Department Referral</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for record in data %}
+          <tr>
+            <td>{{ record['date'] }}</td>
+            <td>{{ record['patient_id'] }}</td>
+            <td>{{ record['patient_gender'] }}</td>
+            <td>{{ record['patient_age'] }}</td>
+            <td>{{ record['patient_sat_score'] }}</td>
+            <td>{{ record['patient_first_inital'] }}</td>
+            <td>{{ record['patient_last_name'] }}</td>
+            <td>{{ record['patient_race'] }}</td>
+            <td>{{ record['patient_admin_flag'] }}</td>
+            <td>{{ record['patient_waittime'] }}</td>
+            <td>{{ record['department_referral'] }}</td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+
+
+{% endblock %}

@@ -1,0 +1,100 @@
+{% extends 'layout.html' %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+
+{% block content %}
+    <h1>Timetable</h1>
+
+    <div class="timetable-container">
+        <table id="time-slots-table">
+            <thead>
+            <tr>
+                <th>Doctor ID</th>
+                <th>Patient ID</th>
+                <th>Date</th>
+                <th>Start Time</th>
+                <th>End Time</th>
+                <th>Status</th>
+                <th>Actions</th>
+            </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+
+<br>
+<br>
+
+<!-- Edit Time Slot Container -->
+    <div class="edit-time-slot-container" id="edit-time-slot-container" style="display:none;">
+        <h2>Edit Time Slot</h2>
+
+        <form id="edit-time-slot-form" method="POST">
+            <input type="hidden" id="edit-slot_id" name="slot_id">
+
+            <label for="edit-doctor_id">Doctor ID:</label>
+            <input type="text" id="edit-doctor_id" name="doctor_id" required>
+
+            <label for="edit-patient_id">Patient ID:</label>
+            <input type="text" id="edit-patient_id" name="patient_id" required>
+
+            <label for="edit-date">Date:</label>
+            <input type="date" id="edit-date" name="date" required>
+
+            <label for="edit-start_time">Start Time:</label>
+            <input type="time" id="edit-start_time" name="start_time" required>
+
+            <label for="edit-end_time">End Time:</label>
+            <input type="time" id="edit-end_time" name="end_time" required>
+
+            <label for="edit-status">Status:</label>
+            <select id="edit-status" name="status" required>
+                <option value="scheduled">Scheduled</option>
+                <option value="cancelled">Cancelled</option>
+                <option value="completed">Completed</option>
+            </select>
+
+            <button type="submit">Save Changes</button>
+</form>
+    </div>
+
+    <div class="add-time-slot-container">
+        <h2>Add Time Slot</h2>
+
+        <form id="add-time-slot-form" method="POST">
+            <label for="doctor_id">Doctor ID:</label>
+            <input type="text" id="doctor_id" name="doctor_id" required>
+
+            <label for="patient_id">Patient ID:</label>
+            <input type="text" id="patient_id" name="patient_id" required>
+
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="start_time">Start Time:</label>
+            <input type="time" id="start_time" name="start_time" required>
+
+            <label for="end_time">End Time:</label>
+            <input type="time" id="end_time" name="end_time" required>
+
+            <label for="status">Status:</label>
+            <select id="status" name="status" required>
+                <option value="scheduled">Scheduled</option>
+                <option value="cancelled">Cancelled</option>
+                <option value="completed">Completed</option>
+            </select>
+
+            <button type="submit">Add Time Slot</button>
+        </form>
+    </div>
+
+<br>
+<br>
+
+<div id="calendar"></div>
+
+
+
+{% endblock %}
+
+<br>

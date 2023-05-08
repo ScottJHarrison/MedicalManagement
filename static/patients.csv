@@ -1,0 +1,116 @@
+date,patient_id,patient_gender,patient_age,patient_sat_score,patient_first_inital,patient_last_name,patient_race,patient_admin_flag,patient_waittime,department_referral
+2020-03-20 08:47:01,145-39-5406,M,69,10,H,Glasspool,White,false,39,None
+2020-06-15 11:29:36,316-34-3057,M,4,,X,Methuen,Native American/Alaska Native,true,27,None
+2020-06-20 09:13:13,897-46-3852,F,56,9,P,Schubuser,African American,true,55,General Practice
+2020-02-04 22:34:29,358-31-9711,F,24,8,U,Titcombe,Native American/Alaska Native,true,31,General Practice
+2020-09-04 17:48:27,289-26-0537,M,5,,Y,Gionettitti,African American,false,10,Orthopedics
+2019-04-20 00:13:05,255-51-2877,M,58,,H,Buff,Asian,false,59,None
+2019-08-23 08:26:21,465-97-0990,F,68,,F,Perrat,White,true,43,None
+2019-07-29 16:57:15,157-31-7520,F,47,,K,Gwillim,Two or More Races,true,23,None
+2020-02-19 06:54:39,432-34-5614,F,79,1,E,Dewhirst,White,false,42,None
+2020-10-11 05:25:17,609-17-8678,M,62,,M,Crebo,African American,false,51,None
+2020-07-26 01:45:45,497-14-6812,F,73,,Q,Churchard,White,true,34,Gastroenterology
+2020-03-10 22:02:15,393-38-9502,F,16,,N,Corpes,White,false,39,Orthopedics
+2019-11-12 16:00:12,288-05-6370,F,16,,R,Brixey,Native American/Alaska Native,true,53,General Practice
+2019-06-25 09:40:39,784-54-9931,M,46,,M,Goudie,Pacific Islander,false,45,None
+2019-05-04 13:16:12,662-21-6522,M,69,,G,Stanlack,White,true,49,None
+2019-09-19 01:53:21,628-73-1801,M,37,,C,McMurty,Declined to Identify,true,57,None
+2020-05-25 22:11:20,370-19-2271,F,50,,I,Scothorn,Asian,false,35,General Practice
+2019-06-25 18:59:56,458-98-8860,M,37,,J,Helgass,Declined to Identify,false,55,None
+2019-09-04 16:15:52,728-31-2493,F,70,,W,Chittock,Asian,true,50,Physiotherapy
+2019-11-16 23:46:29,823-34-5523,M,55,2,F,Prendergast,Asian,true,40,None
+2019-06-30 05:22:02,621-70-7472,F,63,,T,Bissiker,Native American/Alaska Native,true,25,None
+2019-05-22 16:48:52,344-36-7156,F,44,2,M,Mandell,Asian,false,51,None
+2019-11-17 07:24:09,455-21-3671,F,11,4,D,Coste,Declined to Identify,false,30,None
+2020-01-26 05:58:48,259-10-0339,M,8,,Q,Dodridge,Asian,false,16,General Practice
+2019-05-24 14:42:43,720-54-2625,F,4,,C,Pavie,Native American/Alaska Native,true,23,None
+2019-04-12 21:02:24,661-92-7059,M,42,0,Z,Sleightholm,African American,false,51,None
+2020-09-04 02:30:09,598-53-3927,F,68,,S,Noads,African American,false,58,None
+2019-12-16 13:02:55,715-74-5338,M,22,,J,Filkin,Pacific Islander,false,25,General Practice
+2020-03-11 17:06:20,669-74-2146,F,58,,C,Bilby,Declined to Identify,false,55,Orthopedics
+2020-07-07 14:58:01,693-38-2084,F,72,,H,Kehoe,African American,true,37,None
+2020-04-02 13:19:49,548-93-9953,F,73,,S,O'Neill,Two or More Races,false,46,Neurology
+2019-06-30 22:38:01,334-76-4005,M,35,,J,Sibbit,White,true,40,Orthopedics
+2020-08-05 15:17:49,846-66-7490,M,48,,T,Clissett,White,false,53,None
+2020-08-05 01:33:44,278-49-6531,F,74,0,L,Vannacci,White,false,20,Physiotherapy
+2020-01-16 20:05:33,600-62-3412,M,14,,H,Ponting,Two or More Races,true,52,None
+2020-01-08 23:55:31,745-62-9973,F,37,,D,Bleacher,Declined to Identify,true,49,None
+2019-12-14 21:22:26,384-70-5840,M,25,,B,Drinkeld,African American,false,10,None
+2020-07-12 13:12:33,285-41-0221,M,39,,N,Aggiss,Two or More Races,false,52,Orthopedics
+2020-06-01 10:34:38,124-73-3676,M,48,,K,Bilofsky,Declined to Identify,false,35,None
+2019-07-06 19:47:00,878-55-0051,F,22,,R,Harrington,African American,false,16,General Practice
+2020-06-15 13:40:34,206-25-4281,F,72,7,D,Yarrington,Declined to Identify,true,33,None
+2019-10-12 15:03:01,472-28-5842,F,41,,N,Gulliman,Pacific Islander,false,16,None
+2019-05-27 06:13:52,553-27-8559,F,8,,Q,Garnsworthy,African American,false,59,General Practice
+2020-03-23 13:43:21,319-83-9008,F,70,,H,Hesbrook,Native American/Alaska Native,true,39,None
+2019-04-08 12:59:32,434-16-5502,F,50,,N,Romanet,White,true,37,None
+2019-09-03 18:39:02,672-89-2190,F,33,3,K,Rushmare,Declined to Identify,true,16,None
+2019-07-29 17:37:58,135-05-4896,M,17,,P,Pow,Two or More Races,false,56,None
+2020-08-10 02:38:40,760-33-4176,F,45,,Q,Dear,White,false,57,Orthopedics
+2019-10-11 01:56:01,624-71-9493,F,53,,X,Leake,White,false,21,None
+2019-04-18 22:46:08,479-42-8894,F,15,,Z,Friman,White,false,29,None
+2020-09-08 10:26:27,324-75-4743,M,48,,T,Aldridge,Pacific Islander,false,13,None
+2020-05-26 06:51:44,207-15-4815,F,20,,O,Brattan,Asian,true,53,None
+2020-05-15 21:10:37,407-45-1728,M,45,,L,Bourcq,Asian,false,37,None
+2020-09-25 16:11:11,354-75-9525,F,76,,L,Shayes,African American,true,19,General Practice
+2020-10-24 04:53:18,298-72-2588,M,74,9,E,Lillistone,Two or More Races,true,48,General Practice
+2020-10-15 10:41:50,794-74-3955,M,15,,E,Cunningham,Declined to Identify,true,57,None
+2020-04-22 04:59:04,213-04-4901,M,21,,L,Zum Felde,Asian,true,13,None
+2020-03-05 14:01:24,683-46-5079,M,47,,B,Gostridge,Declined to Identify,false,45,General Practice
+2020-06-16 17:00:25,843-56-0384,M,60,,I,Fairrie,Asian,true,41,None
+2019-09-19 05:19:34,882-39-1200,M,10,,P,Walak,Two or More Races,false,55,Orthopedics
+2020-03-23 11:13:50,697-90-3233,M,54,10,W,Escale,Two or More Races,false,58,None
+2020-01-14 06:07:25,481-99-0791,F,15,7,Y,Silveston,White,true,12,None
+2020-04-26 09:19:40,218-42-0736,M,55,,T,Dickin,Declined to Identify,true,30,General Practice
+2019-08-08 11:23:03,111-19-4529,M,11,,Q,Khoter,White,false,48,General Practice
+2020-08-28 22:40:47,490-74-0642,M,7,,F,Deshorts,Asian,false,31,None
+2019-08-14 11:22:26,498-99-8689,M,49,,J,McAmish,Pacific Islander,true,18,None
+2019-09-13 20:55:40,705-01-2168,F,70,,S,Jowitt,African American,true,55,General Practice
+2019-04-18 14:57:39,119-28-5124,F,16,,O,Pocklington,Asian,true,51,General Practice
+2019-09-23 23:51:43,509-88-2899,M,14,4,F,Brudenell,Two or More Races,true,23,Orthopedics
+2019-06-22 23:33:20,258-48-2258,M,41,4,T,Lyons,African American,false,46,None
+2019-10-20 00:48:37,369-33-5075,M,8,,H,Esposi,African American,false,37,None
+2020-10-08 15:51:17,643-90-3414,M,64,,U,Mangham,Pacific Islander,false,59,None
+2020-05-11 15:52:02,412-29-6293,F,76,,J,Gianneschi,Two or More Races,true,34,Gastroenterology
+2020-03-22 02:48:24,844-81-9989,F,17,,C,Veldens,African American,true,27,General Practice
+2019-09-05 10:18:43,839-13-8580,M,38,,X,Barbery,Two or More Races,false,55,None
+2019-07-03 20:27:58,367-52-9587,F,75,,R,Millan,White,true,34,Cardiology
+2020-05-08 18:03:50,621-85-6677,M,77,0,X,Klimowicz,Native American/Alaska Native,false,17,General Practice
+2020-01-06 20:40:51,563-01-2494,M,34,,D,Blaasch,Asian,true,40,None
+2020-03-07 10:00:57,570-11-3903,F,26,1,X,Audiss,Asian,true,16,Cardiology
+2019-04-17 11:37:28,292-45-8684,F,51,6,K,Hilliam,White,true,25,General Practice
+2019-07-19 03:23:29,721-19-3123,F,9,,I,Franzelini,African American,false,23,None
+2020-06-15 03:46:10,652-33-9813,F,71,,D,Hovie,Two or More Races,true,51,None
+2019-11-17 06:23:18,809-14-6629,M,51,,N,Kinmond,African American,false,33,None
+2020-06-13 20:15:35,304-72-3326,F,73,0,O,Brito,Asian,false,10,Gastroenterology
+2019-06-02 07:44:18,231-20-7799,F,46,5,V,Puddifer,White,false,50,Physiotherapy
+2019-04-17 08:03:31,597-41-0817,F,13,1,T,Titman,White,true,32,None
+2019-10-11 03:24:19,496-23-9655,F,15,9,X,Maffin,Declined to Identify,true,15,General Practice
+2019-10-17 13:28:28,636-90-6357,M,57,2,B,Lambarth,White,true,35,General Practice
+2019-12-10 21:12:15,300-34-2747,M,16,4,B,Durrant,Pacific Islander,true,34,None
+2020-06-29 14:27:12,178-52-1500,M,4,,K,Beavington,White,false,59,Orthopedics
+2019-11-19 19:44:33,521-84-1782,F,32,7,A,Fidal,African American,false,14,None
+2020-09-18 17:49:13,818-26-8196,M,26,8,B,MacNally,African American,true,38,Orthopedics
+2020-10-25 10:33:45,808-11-5508,F,9,,U,Peat,Declined to Identify,true,37,Neurology
+2020-10-10 04:29:56,439-25-2191,F,10,,M,Plews,White,true,26,General Practice
+2020-10-14 06:03:58,186-28-5457,F,24,,L,Downing,Two or More Races,true,11,General Practice
+2020-08-21 01:01:57,854-61-3541,M,27,,U,Lightman,White,false,11,None
+2020-08-31 06:38:20,368-53-4901,M,26,7,I,Rubinsztein,White,false,59,None
+2020-08-07 13:33:16,826-27-1762,M,79,,I,Melluish,African American,false,29,None
+2019-08-26 08:32:26,335-73-2892,M,15,2,Y,Ricks,Asian,true,56,General Practice
+2020-07-08 17:17:51,331-09-2284,M,43,0,X,Laity,African American,false,47,None
+2019-10-04 11:46:26,888-46-1367,F,14,,W,Levee,African American,false,19,None
+2020-09-06 21:58:42,577-17-4945,M,59,,Y,McGraw,White,false,34,General Practice
+2020-07-07 07:16:42,113-60-6899,M,58,,W,Itscovitz,Declined to Identify,true,36,None
+2019-08-12 02:20:24,646-67-2143,M,25,,K,Halkyard,Two or More Races,false,59,None
+2019-08-13 22:16:09,148-47-0490,M,64,,T,Friberg,Native American/Alaska Native,true,42,General Practice
+2019-07-25 11:43:12,345-87-0533,M,20,,A,Alyukin,Declined to Identify,true,34,None
+2020-05-13 14:35:26,603-14-9459,M,69,,A,Milier,White,false,55,General Practice
+2020-03-24 18:56:26,628-78-9167,M,26,,X,Pamphilon,White,false,57,None
+2020-09-14 10:47:34,814-60-0292,M,16,,Z,Gobourn,African American,true,11,None
+2019-10-20 19:52:40,306-67-0367,M,45,1,J,Bullier,White,true,42,General Practice
+2020-09-29 04:06:36,658-82-9991,M,7,9,O,Roscher,Pacific Islander,true,45,Orthopedics
+2020-04-09 13:10:19,770-82-7913,M,66,,N,Longworth,White,false,45,General Practice
+2020-07-09 04:33:15,659-64-3380,F,61,,C,Wahner,Asian,false,58,General Practice
+2020-10-12 01:08:44,195-51-9264,F,47,,C,Lympany,White,true,40,Physiotherapy
+2019-04-12 02:01:46,240-68-3060,M,66,,I,Tootell,White,false,29,General Practice

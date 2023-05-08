@@ -1,0 +1,50 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+<h1>Welcome to the Feedback Portal</h1>
+
+
+<div class="about-container">
+<div class = "col" style="width:40%">
+<!-- Review form -->
+<form id="review-form" onsubmit="submitReview(event)">
+     <div class="request-form-container">
+    <div>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+    </div>
+    <div>
+        <label for="stars">Stars:</label>
+        <select id="stars" name="stars" required>
+            <option value="">Choose</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+    </div>
+    <div>
+        <label for="review">Review:</label>
+        <textarea id="review" name="review" rows="4" cols="50" required></textarea>
+    </div>
+    <button type="submit">Submit</button>
+</div>
+</form>
+</div>
+
+<div class = "col" style="width:40%">
+    <h3>We Want to Hear From You</h3>
+    <p>Any feedback you may have to improve functionality on this application would be greatly appreciated.
+    This review will be stored in the database and our admins will action any reasonable feedback provided</p>
+</div>
+
+</div>
+<!-- Container for displaying reviews -->
+<div id="reviews-container">
+    <ul id="reviews-list"></ul>
+</div>
+
+{% endblock %}
+
+<!--Don't forget to add the feedback portal link-->

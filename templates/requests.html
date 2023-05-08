@@ -1,0 +1,46 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+    <h1>Submit a Request</h1>
+    <div class="row">
+        <div class="col" style="width: 30%;">
+            <h3>Room Booking</h3>
+            <img src="{{ url_for('images', filename='image4.jpg') }}" alt="stock photo" height="400px" width="400px">
+            <p>This request is for medical staff to book wards, meeting rooms and theatres
+            to help provide healthcare to the general public</p>
+        </div>
+        <div class="col" style="width: 40%;">
+            <h3>Equipment Request</h3>
+            <img src="{{ url_for('images', filename='image5.jpg') }}" alt="stock photo" height="400px" width="400px">
+            <p>A request form to enable medical staff to ask for equipment to fulfill their duties
+            such as laptops, ipads and desktop pcs. </p>
+        </div>
+        <div class="col" style="width: 30%;">
+            <h3>General Requests</h3>
+            <img src="{{ url_for('images', filename='image6.jpg') }}" alt="stock photo" height="400px" width="400px">
+            <p>General requests are for miscellaneous requests. This will be sent to an admin
+            director who will then action the request.</p>
+        </div>
+    </div>
+
+
+    <br>
+    <div class="request-form-container">
+        <form id="request-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="request_type">Request Type:</label>
+            <select id="request_type" name="request_type">
+                <option value="equipment">Equipment</option>
+                <option value="room_booking">Room Booking</option>
+                <option value="general">General</option>
+            </select><br><br>
+
+            <label for="request_details">Request Details and Cost Center:</label><br>
+            <textarea id="request_details" name="request_details" rows="4" cols="50" required></textarea><br><br>
+
+            <button type="submit">Submit Request</button>
+        </form>
+    </div>
+{% endblock %}

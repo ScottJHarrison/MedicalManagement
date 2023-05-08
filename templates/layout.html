@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical Management System</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.10.2/fullcalendar.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+
+
+    <!-- FullCalendar dependencies -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+
+    <!-- FullCalendar JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.10.2/fullcalendar.min.js"></script>
+
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+
+</head>
+
+<body>
+
+    <header>
+       <nav>
+
+           <ul class="navbar">
+        <li><a href="/home">Home</a></li>
+        <li><a href="/timetable_page">Timetable</a></li>
+        <li><a href="/requests">Requests</a></li>
+        <li><a href="/records">Patient Records</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/feedback">Feedback</a></li>
+        <li class="navbar-right">
+                    {% if current_user.is_authenticated %}
+                        <form class="form-inline my-2 my-lg-0" action="{{ url_for('logout') }}" method="post">
+                            <button class="btn btn-outline-danger my-2 my-sm-0" type="submit">Logout</button>
+                        </form>
+                    {% else %}
+                        <a class="btn btn-outline-primary my-2 my-sm-0" href="{{ url_for('login') }}">Login</a>
+                    {% endif %}
+                </li>
+           </ul>
+
+       </nav>
+    </header>
+
+<div class="main-content2">
+
+
+
+    {% block content %}
+    {% endblock %}
+</div>
+</body>
+ <footer>
+  <div class="footer-container">
+    <div class="footer-column">
+      <h3>About Us</h3>
+      <p>Welcome to the medical management system. Please don't hesitate to contact</p>
+    </div>
+    <div class="footer-column">
+      <h3>Contact Us</h3>
+      <ul>
+        <li>Ulster Hospital</li>
+        <li>Dundonald</li>
+        <li>123456789</li>
+        <li><a href="mailto:info@medicalmanagementsystem.com">info@medicalmanagementsystem.com</a></li>
+      </ul>
+    </div>
+    <div class="footer-column">
+      <h3>Follow Us</h3>
+      <ul>
+        <li><a href="#">Facebook</a></li>
+        <li><a href="#">Twitter</a></li>
+        <li><a href="#">Instagram</a></li>
+        <li><a href="#">LinkedIn</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; 2023 Medical Management System</p>
+  </div>
+</footer>
+</html>

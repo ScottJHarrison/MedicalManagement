@@ -1,0 +1,52 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+    <h1>Medical Management System</h1>
+     <div class="row">
+        <div class="col" style="width: 26%;">
+            <h2>Time-Tabling System</h2>
+            <img src="{{ url_for('images', filename='image2.jpg') }}" alt="stock photo" height="400px" width="400px">
+            <p>
+                The time-tabling system allows for our medical staff to access their
+                department time-tables. This provides a clear layout for our staff
+                and is easy to access.
+            </p>
+        </div>
+        <div class="col" style="width: 26%;">
+            <h2>Requests Forms</h2>
+             <img src="{{ url_for('images', filename='image1.jpg') }}" alt="stock photo" height="400px" width="400px">
+            <p>
+                The request forms can be accessed by our medical staff to request
+                equipment, rooms and fire through general requests. Our team will then
+                process these requests and send them through to the correct department
+                who can then action the user request.
+            </p>
+        </div>
+        <div class="col" style="width: 26%;">
+            <h2>Patient Records</h2>
+             <img src="{{ url_for('images', filename='image3.jpg') }}" alt="stock photo" height="400px" width="400px">
+            <p>The patient records system allows easy access to patient records
+            with the end goal to reduce wait times. The system is kept simple for
+            ease of access. </p>
+        </div>
+    </div>
+
+    <h1>Where we are</h1>
+
+    <div class="about-container">
+
+    <div class = "col" style="width:40%">
+    <h1>Our Location</h1>
+    <div class="slider">
+    <div><img src="{{ url_for('static', filename='images/image8.jpg') }}" alt="stock photo" height="450px" width="600px"></div>
+    <div><img src="{{ url_for('static', filename='images/image9.jpg') }}" alt="stock photo" height="450px" width="600px"></div>
+    <div><img src="{{ url_for('static', filename='images/image10.jpg') }}" alt="stock photo" height="450px" width="600px"></div>
+    </div>
+    </div>
+
+    <div class="col" style="width:40%">
+    <h1>On the map</h1>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2311.4525131876326!2d-5.8137677841140585!3d54.59602048025982!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48610b05e75548ed%3A0x67f9c19b6993296b!2sUlster%20Hospital!5e0!3m2!1sen!2suk!4v1683374390333!5m2!1sen!2suk" height="450px" width="650px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    </div>
+{% endblock %}
